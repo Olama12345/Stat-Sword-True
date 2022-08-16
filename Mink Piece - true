@@ -1,0 +1,40 @@
+_G.Condition = true 
+while _G.Condition == true do
+wait(0)
+
+
+local args = {
+        [1] = workspace:FindFirstChild("Immortal Monke"),
+        [2] = 1,
+        [3] = "Sword"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.DmgEvent:FireServer(unpack(args))
+    
+    local args = {
+        [1] = workspace:FindFirstChild("Immortal Monke"),
+        [2] = 2,
+        [3] = "Sword"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.DmgEvent:FireServer(unpack(args))
+    
+    local args = {
+        [1] = workspace:FindFirstChild("Immortal Monke"),
+        [2] = 3,
+        [3] = "Sword"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.DmgEvent:FireServer(unpack(args))
+    
+    local args = {
+        [1] = workspace:FindFirstChild("Immortal Monke"),
+        [2] = 4,
+        [3] = "Sword"
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.DmgEvent:FireServer(unpack(args))
+
+
+
+end
